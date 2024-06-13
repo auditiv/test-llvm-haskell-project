@@ -1,0 +1,9 @@
+[1 of 2] Compiling Main             ( /home/jaime/Documents/Haskell_Folder/cabal_prjcts/test-llvm-haskell-project/dist-newstyle/tmp/src-16757/llvm-hs-9.0.1/dist/setup/setup.hs, /home/jaime/Documents/Haskell_Folder/cabal_prjcts/test-llvm-haskell-project/dist-newstyle/tmp/src-16757/llvm-hs-9.0.1/dist/setup/Main.o )
+[2 of 2] Linking /home/jaime/Documents/Haskell_Folder/cabal_prjcts/test-llvm-haskell-project/dist-newstyle/tmp/src-16757/llvm-hs-9.0.1/dist/setup/setup
+Using Parsec parser
+/usr/bin/llvm-config --version
+CallStack (from HasCallStack):
+  withMetadata, called at libraries/Cabal/Cabal/src/Distribution/Simple/Utils.hs:370:14 in Cabal-3.8.1.0:Distribution.Simple.Utils
+Error: setup: The program 'llvm-config' version >=9.0 && <9.1 is required but
+the version found at /usr/bin/llvm-config is version 18.1.6
+
