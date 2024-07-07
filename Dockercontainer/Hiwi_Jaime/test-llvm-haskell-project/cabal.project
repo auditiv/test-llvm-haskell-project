@@ -1,0 +1,6 @@
+packages: .
+
+package llvm-ffi
+  flags: +llvm900
+  extra-include-dirs: /usr/lib/llvm-9/include
+  extra-lib-dirs:     /usr/lib/llvm-9/lib
