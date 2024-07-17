@@ -13,7 +13,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   libtinfo5         \
   llvm-9            \
   llvm-9-dev        \
-  pkg-config
+  pkg-config	    \
+  vim               
 
 RUN curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | \
   BOOTSTRAP_HASKELL_NONINTERACTIVE=1            \
