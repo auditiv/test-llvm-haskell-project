@@ -50,6 +50,26 @@
   (major1) == 16 && (major2) <  0 || \
   (major1) == 16 && (major2) == 0 && (minor) <= 0)
 #endif /* MIN_VERSION_llvm_ffi */
+/* package llvm-tf-16.0 */
+#ifndef VERSION_llvm_tf
+#define VERSION_llvm_tf "16.0"
+#endif /* VERSION_llvm_tf */
+#ifndef MIN_VERSION_llvm_tf
+#define MIN_VERSION_llvm_tf(major1,major2,minor) (\
+  (major1) <  16 || \
+  (major1) == 16 && (major2) <  0 || \
+  (major1) == 16 && (major2) == 0 && (minor) <= 0)
+#endif /* MIN_VERSION_llvm_tf */
+/* package synthesizer-llvm-1.1.0.1 */
+#ifndef VERSION_synthesizer_llvm
+#define VERSION_synthesizer_llvm "1.1.0.1"
+#endif /* VERSION_synthesizer_llvm */
+#ifndef MIN_VERSION_synthesizer_llvm
+#define MIN_VERSION_synthesizer_llvm(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  1 || \
+  (major1) == 1 && (major2) == 1 && (minor) <= 0)
+#endif /* MIN_VERSION_synthesizer_llvm */
 
 /* tool gcc-14 */
 #ifndef TOOL_VERSION_gcc
@@ -111,15 +131,15 @@
   (major1) == 0 && (major2) <  68 || \
   (major1) == 0 && (major2) == 68 && (minor) <= 8)
 #endif /* MIN_TOOL_VERSION_hsc2hs */
-/* tool pkg-config-2.1.0 */
+/* tool pkg-config-2.1.1 */
 #ifndef TOOL_VERSION_pkg_config
-#define TOOL_VERSION_pkg_config "2.1.0"
+#define TOOL_VERSION_pkg_config "2.1.1"
 #endif /* TOOL_VERSION_pkg_config */
 #ifndef MIN_TOOL_VERSION_pkg_config
 #define MIN_TOOL_VERSION_pkg_config(major1,major2,minor) (\
   (major1) <  2 || \
   (major1) == 2 && (major2) <  1 || \
-  (major1) == 2 && (major2) == 1 && (minor) <= 0)
+  (major1) == 2 && (major2) == 1 && (minor) <= 1)
 #endif /* MIN_TOOL_VERSION_pkg_config */
 /* tool runghc-9.4.5 */
 #ifndef TOOL_VERSION_runghc
